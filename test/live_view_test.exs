@@ -1,6 +1,6 @@
 defmodule Heroicons.LiveViewTest do
   use Heroicons.ConnCase, async: true
-  import Phoenix.LiveView.Helpers
+  import Phoenix.Component
 
   alias Heroicons.LiveView
 
@@ -84,7 +84,7 @@ end
 
 defmodule Heroicons.LiveViewConfigTest do
   use Heroicons.ConnCase
-  import Phoenix.LiveView.Helpers
+  import Phoenix.Component
 
   alias Heroicons.LiveView
 
